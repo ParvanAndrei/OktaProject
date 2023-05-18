@@ -4,7 +4,7 @@
       <div class="card-content center-align">
         <h1>Welcome, {{ activeUser.name }}!</h1>
         <!-- Additional content -->
-        <h2> A MERS VARULE</h2>
+        <h2> A MERS VARULE ESTI PE RETETA</h2>
 
       </div>
     </div>
@@ -16,7 +16,7 @@
   
 <script>
 export default {
-  name: "Recipe",
+  name: "RecipeProd",
 
   data() {
     return {

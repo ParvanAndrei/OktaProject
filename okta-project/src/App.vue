@@ -8,11 +8,11 @@
         </router-link>
         <router-link v-else to="/" class="header item" style="display: inline-flex; align-items: center;">
           <img class="ui mini image" src="./assets/fagaras.png" style="width: 60px; height: 60px;">
-          <span style="font-size: 20px; margin-left: 10px;  Georgia, 'Times New Roman', Times, serif ; font-size: 17px">Făgăraș</span>
+          <span style="font-size: 20px; margin-left: 10px;  Georgia, font-family: 'Times New Roman', Times, serif ; font-size: 17px">Făgăraș</span>
         </router-link>
         <ul class="right">
           <li><a @click.prevent="login" style="font-family:Georgia, 'Times New Roman', Times, serif ; font-size: 17px" v-if="activeUser.name == null">Login</a></li>
-          <li><a class="item" style="font-family:Georgia, 'Times New Roman', Times, serif ; font-size: 17px " v-if="activeUser.name && activeUser.name === 'Oana Ianosiu'" v-on:click="redirectToReteta">Recipe</a></li>
+          <li><a class="item" style="font-family:Georgia, 'Times New Roman', Times, serif ; font-size: 17px " v-if="activeUser.name && activeUser.name === 'Leo Parvan'" v-on:click="redirectToReteta">Recipe</a></li>
           <li><a class="item" style="font-family:Georgia, 'Times New Roman', Times, serif ; font-size: 17px " v-if="activeUser.name != null" v-on:click="redirectToProfile">Profile</a></li>
           <li><a class="item" style="font-family:Georgia, 'Times New Roman', Times, serif ; font-size: 17px" v-if="activeUser.name != null" v-on:click="logout()">Logout</a></li>
         </ul>

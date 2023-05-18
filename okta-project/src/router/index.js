@@ -4,6 +4,7 @@ import LoggedOutComponent from '@/components/LoggedOut'
 import LoggedInComponent from '@/components/LoggedIn'
 import Profile from '@/components/Profile'
 import Home from '@/components/Hello'
+import RecipeProd from '@/components/RecipeProd'
 // import Auth from '@okta/okta-vue'
 
 
@@ -26,6 +27,11 @@ const router = createRouter({
     path: '/profile',
     name: 'Profile',
     component: Profile
+  },
+  {
+    path: '/recipe',
+    name: 'RecipeProd',
+    component: RecipeProd
   },
   {
     path: '/home',
