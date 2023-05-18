@@ -66,13 +66,13 @@ export default {
       this.$router.push('/profile');
     },
 
-    reteta() {
+    recipe() {
       this.$router.push('/');
       
     },
 
     redirectToReteta() {
-      this.$router.push('/reteta');
+      this.$router.push('/recipe');
     }
     
   }
