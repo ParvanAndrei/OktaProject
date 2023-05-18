@@ -12,7 +12,7 @@
         </router-link>
         <ul class="right">
           <li><a @click.prevent="login" style="font-family:Georgia, 'Times New Roman', Times, serif ; font-size: 17px" v-if="activeUser.name == null">Login</a></li>
-          <li><a class="item" style="font-family:Georgia, 'Times New Roman', Times, serif ; font-size: 17px " v-if="activeUser.name && activeUser.name === 'Oana Ianosiu'" v-on:click="redirectToProfile">Reteta</a></li>
+          <li><a class="item" style="font-family:Georgia, 'Times New Roman', Times, serif ; font-size: 17px " v-if="activeUser.name && activeUser.name === 'Oana Ianosiu'" v-on:click="redirectToReteta">Recipe</a></li>
           <li><a class="item" style="font-family:Georgia, 'Times New Roman', Times, serif ; font-size: 17px " v-if="activeUser.name != null" v-on:click="redirectToProfile">Profile</a></li>
           <li><a class="item" style="font-family:Georgia, 'Times New Roman', Times, serif ; font-size: 17px" v-if="activeUser.name != null" v-on:click="logout()">Logout</a></li>
         </ul>
@@ -64,6 +64,15 @@ export default {
 
     redirectToProfile() {
       this.$router.push('/profile');
+    },
+
+    reteta() {
+      this.$router.push('/');
+      
+    },
+
+    redirectToReteta() {
+      this.$router.push('/reteta');
     }
     
   }
