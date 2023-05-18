@@ -4,15 +4,16 @@
       <div class="ui container">
         <router-link v-if="!activeUser" to="/home" class="header item" style="display: inline-flex; align-items: center;">
           <img class="ui mini image" src="./assets/fagaras.png" style="width: 60px; height: 60px;">
-          <span style="font-size: 20px; margin-left: 10px;">Făgăraș</span>
+          <span style="font-size: 20px; margin-left: 10px;font-family: Georgia, 'Times New Roman', Times, serif ; font-size: 17px">Făgăraș</span>
         </router-link>
         <router-link v-else to="/" class="header item" style="display: inline-flex; align-items: center;">
           <img class="ui mini image" src="./assets/fagaras.png" style="width: 60px; height: 60px;">
-          <span style="font-size: 20px; margin-left: 10px;">Făgăraș</span>
+          <span style="font-size: 20px; margin-left: 10px;  Georgia, 'Times New Roman', Times, serif ; font-size: 17px">Făgăraș</span>
         </router-link>
         <ul class="right">
-          <li><a @click.prevent="login" v-if="activeUser.name == null">Login</a></li>
-          <li><a class="item" v-if="activeUser.name != null" v-on:click="logout()">Logout</a></li>
+          <li><a @click.prevent="login" style="font-family:Georgia, 'Times New Roman', Times, serif ; font-size: 17px" v-if="activeUser.name == null">Login</a></li>
+          <li><a class="item" style="font-family:Georgia, 'Times New Roman', Times, serif ; font-size: 17px " v-if="activeUser.name != null" v-on:click="redirectToProfile">Profile</a></li>
+          <li><a class="item" style="font-family:Georgia, 'Times New Roman', Times, serif ; font-size: 17px" v-if="activeUser.name != null" v-on:click="logout()">Logout</a></li>
         </ul>
       </div>
     </nav>
@@ -57,7 +58,13 @@ export default {
     },
     profile() {
       this.$router.push('/');
+      
+    },
+
+    redirectToProfile() {
+      this.$router.push('/profile');
     }
+    
   }
 }
 </script>
