@@ -1,13 +1,63 @@
 <template>
   <div class="custom-contain container">
     <div class="card">
-      <div class="card-content center-align">
-        <h1>Welcome, {{ activeUser.name }}!</h1>
-        <!-- Additional content -->
-        <h2> A MERS VARULE ESTI PE RETETA</h2>
+      <div class="card-content ">
+          <h1 style="text-align: center;">Fagaras Chocolate</h1>
+          <img src="fagaras-chocolate.jpg" alt="Fagaras Chocolate">
+          <p>
+            Welcome to the world of Fagaras Chocolate! Indulge in the rich and heavenly flavors of our exquisite chocolates. Made from the finest ingredients, each piece of Fagaras Chocolate is a work of art that will delight your senses.
+          </p>
+          <p>
+            Whether you are a dark chocolate enthusiast or prefer the smoothness of milk chocolate, Fagaras Chocolate has a variety of options to suit your taste. From classic flavors to innovative combinations, we have something for everyone.
+          </p>
+          <p>
+            Explore our collection and experience the true essence of chocolate bliss. Treat yourself or surprise your loved ones with the gift of Fagaras Chocolate. Our chocolates make perfect presents for any occasion, from birthdays to anniversaries.
+          </p>
+          <p>
+            Join us on this delightful journey of flavors and let Fagaras Chocolate transport you to a world of pure chocolate indulgence.
+          </p>
 
+
+          
       </div>
+      <body>
+  <div class="container">
+    <h1 style="font-size: 20px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Recipe</h1>
+    <h2 style="font-size: 20px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Ingredients:</h2>
+    <div class="ingredients">
+      <ul>
+        <li>200g dark chocolate</li>
+        <li>100g unsalted butter</li>
+        <li>150g digestive biscuits, crushed</li>
+        <li>100g mixed nuts, chopped</li>
+        <li>50g dried fruits (e.g., raisins, cranberries)</li>
+        <li>2 tablespoons honey</li>
+      </ul>
     </div>
+    <h2 style="font-size: 20px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Instructions:</h2>
+    <ol>
+      <li>Melt the dark chocolate and butter together in a heatproof bowl set over a pan of simmering water, stirring until smooth.</li>
+      <li>Remove the bowl from the heat and stir in the crushed digestive biscuits, mixed nuts, dried fruits, and honey. Mix well to combine.</li>
+      <li>Line a baking dish with parchment paper and transfer the mixture into the dish, spreading it evenly.</li>
+      <li>Place the dish in the refrigerator and chill for at least 2 hours, or until the mixture is set.</li>
+      <li>Once set, remove the mixture from the dish and cut it into bars or baton shapes.</li>
+      <li>Your delicious Baton Fagaras is ready to be enjoyed!</li>
+    </ol>
+  </div>
+  </body>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    
   </div>
 </template>
 
