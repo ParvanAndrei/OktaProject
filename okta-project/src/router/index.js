@@ -3,7 +3,7 @@ import { LoginCallback, navigationGuard } from '@okta/okta-vue'
 import LoggedOutComponent from '@/components/LoggedOut'
 import LoggedInComponent from '@/components/LoggedIn'
 import Profile from '@/components/Profile'
-import Home from '@/components/Hello'
+// import Home from '@/components/Hello'
 import RecipeProd from '@/components/RecipeProd'
 // import Auth from '@okta/okta-vue'
 
@@ -33,14 +33,14 @@ const router = createRouter({
     name: 'RecipeProd',
     component: RecipeProd
   },
-  {
-    path: '/home',
-    name: 'Home',
-    component: Home,
-    meta: {
-      requiresAuth: true
-    }
-  },
+  // {
+  //   path: '/home',
+  //   name: 'Home',
+  //   component: Home,
+  //   meta: {
+  //     requiresAuth: true
+  //   }
+  // },
   {
     path: '/login/callback',
     component: LoginCallback
