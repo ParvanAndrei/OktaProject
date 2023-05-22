@@ -1,28 +1,32 @@
 <template>
   <div class="custom-contain container">
     <div class="card">
-      <div class="card-content ">
-          <h1 style="text-align: center;">Fagaras Chocolate</h1>
-          <img src="fagaras-chocolate.jpg" alt="Fagaras Chocolate">
-          <p>
+      <div style="padding: 50px;" class="card-content ">
+          <h1 style="text-align: center; font-size: 34px; margin-bottom: 0%; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Fagaras Chocolate</h1>
+          <a style="display: flex; align-items: center; justify-content: center ;" href="https://storage.googleapis.com/doraly-assets-images/images/2022-02-04T10-23-36.862Z-imageFromUrl-24-0.jpeg">
+            <img style="width: 25%;" src="https://storage.googleapis.com/doraly-assets-images/images/2022-02-04T10-23-36.862Z-imageFromUrl-24-0.jpeg" alt="Image description">
+          </a>
+<!--  <img src="fagaras-chocolate.jpg" alt="Fagaras Chocolate"> -->
+          <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
             Welcome to the world of Fagaras Chocolate! Indulge in the rich and heavenly flavors of our exquisite chocolates. Made from the finest ingredients, each piece of Fagaras Chocolate is a work of art that will delight your senses.
           </p>
-          <p>
+          <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
             Whether you are a dark chocolate enthusiast or prefer the smoothness of milk chocolate, Fagaras Chocolate has a variety of options to suit your taste. From classic flavors to innovative combinations, we have something for everyone.
           </p>
-          <p>
+          <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
             Explore our collection and experience the true essence of chocolate bliss. Treat yourself or surprise your loved ones with the gift of Fagaras Chocolate. Our chocolates make perfect presents for any occasion, from birthdays to anniversaries.
           </p>
-          <p>
+          <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
             Join us on this delightful journey of flavors and let Fagaras Chocolate transport you to a world of pure chocolate indulgence.
           </p>
 
 
           
       </div>
-      <body>
-  <div class="container">
-    <h1 style="font-size: 20px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Recipe</h1>
+
+
+      <div class="container " style="padding-bottom: 10%;">
+    <h1 style="font-size: 20px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Recipe</h1>
     <h2 style="font-size: 20px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Ingredients:</h2>
     <div class="ingredients">
       <ul>
@@ -44,7 +48,9 @@
       <li>Your delicious Baton Fagaras is ready to be enjoyed!</li>
     </ol>
   </div>
-  </body>
+      <!-- <body>
+  
+  </body> -->
 
 
 
